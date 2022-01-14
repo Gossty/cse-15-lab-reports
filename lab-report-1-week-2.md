@@ -15,24 +15,32 @@ Now we are ready to move on.
 
 ## Remotely Connecting
 
-Since my laptop runs on Mac operating system I will cover the steps required for Mac users to connect to **ieng6**. Here are the steps: 
-* open a terminal (hotkey shortcut: "control" + "shift" + "`" [a symbol next to shift])
-* type in `ssh cs15lwi22ant@ieng6.ucsd.edu` (instead of "ant" you should have some other letters) and enter your Password.
+Since my laptop runs on Mac operating system I will cover the steps required for Mac users to connect to **ieng6**. Here they are:
+
+* Go to [this](https://sdacs.ucsd.edu/~icc/index.php) website and look for your CSE15L course-specific account. Follow the steps described on the website. ***On the last step, when trying to change password, press "enter" on your keyboard instead of clicking on the button. This issue took me almost a day to resolve, so be careful!***
+
+* Next open a terminal in VScode (hotkey shortcut: "control" + "shift" + "~");
+
+* Type in `ssh cs15lwi22ant@ieng6.ucsd.edu` (instead of "ant" you should have some other letters) and enter your Password.
 
 If you do everything correctly, you should get the following output in a terminal:
 
 ![Image](SSH-login.png)
 
-**Note**: *You might get an "authenticity of host..." message. It's fine, you just need to type "yes" there.
+**Note**: *You might get an "authenticity of host..." message. It's fine, you just need to type "yes" there.*
 
 ## Trying Some Commands
 
 Now we will try some commands:
 
 * `cd` – change directory. If we type in just cd it will go to **home** directory;
+
 * `cd <name>` – goes to other directory;
+
 * `ls` – shows a list of files and directories in the given directory;
-* `ls -a` – list of files and directories in the given directory including hidden files (that start with ".");
+
+* `ls -a` – list of files and directories in the given directory including hidden ones that start with ".";
+
 * `mkdir <nameOfFolder>` – creates a directory with a given name. 
 
 Here is approximately what you should get:
@@ -43,17 +51,18 @@ Here is approximately what you should get:
 
 ## Moving Files with **scp**
 
-The next thing we are going to do is moving local files from our **local** machine to **remote** ieng6. This can be done with the following line: `scp <FileName.java> cs15lwi22atn@ieng6.ucsd.edu~/`. You should get something like this:
+The next thing we are going to do is moving files from our **local** machine to **remote** ieng6. This can be done with the following line: `scp <FileName.java> cs15lwi22atn@ieng6.ucsd.edu~/`(don't forget about unique letters in **ieng6**). You should get something like this:
 
 ![Image](SCP.png)
 
 **Note**: *Don't forget to create a file on your local device first.*
 
-At first when I ran WhereAmI file on my laptop, it showed me MAC OS X, my username, home directory and a path to download directory. After logging into ssh  OS changed to Linux and home directory changed to another. 
+At first when I ran WhereAmI file on my laptop, it showed me MAC OS X, my username, home directory and a path to download directory. After logging into ssh OS changed to Linux and home directory changed to another. 
 
 ## Setting an SSH Key
 
 Now we will set up an SSH key, so that log in process would take less time. Here are the steps you should take:
+
 1. On local device write: `ssh-keygen`;
 2. Copy the path that is given to you in the next output and insert it as an input;
 3. `ssh` to your **ieng6** account;
