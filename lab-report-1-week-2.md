@@ -23,19 +23,35 @@ If you do everything correctly, you should get the following output in a termina
 
 ![Image](SSH-login.png)
 
-**Note** You might get an "authenticity of host..." message. It's fine, you just need to type "yes" there.
+**Note**: You might get an "authenticity of host..." message. It's fine, you just need to type "yes" there.
 
 ## Trying Some Commands
 
 Now we will try some commands:
 
-* cd – change directory; if we type in just cd it will go to home directory, cd 'name' - goes to other directory;
-* ls – shows a list of files and directories in the given directory 
-* ls -a – list of files and directories in the given directory including hidden files (that start with ".");
-* mkdir 'name' – creates a directory with a given name. 
+* `cd` – change directory. If we type in just cd it will go to **home** directory;
+* `cd <name>` - goes to other directory;
+* `ls` – shows a list of files and directories in the given directory;
+* `ls -a` – list of files and directories in the given directory including hidden files (that start with ".");
+* `mkdir <nameOfFolder>` – creates a directory with a given name. 
 
 Here is approximately what you should get:
 
 ![Image](Trying-Some-Commands.png)
 
+**Note**: *There is a "Permission Denied" output in line 29 in screenshot, since I was trying to look into another students directory.*
 
+## Moving Files with **scp**
+
+The next thing we are going to do is moving local files from our **local** machine to **remote** ieng6. This can be done with the following line: `scp <FileName.java> cs15lwi22atn@ieng6.ucsd`.edu~/. You should get something like this:
+
+![Image](SCP.png)
+
+**Note**: *Don't forget to create a file on your local device first.*
+
+At first when I ran WhereAmI file on my laptop, it showed me MAC OS X, my username, home directory and a path to download directory. After logging into ssh  OS changed to Linux and home directory changed to another. 
+
+## Setting an SSH Key
+
+Now we will set up an SSH key, so that log in process would take less time. Here are the steps you should take:
+1. 
