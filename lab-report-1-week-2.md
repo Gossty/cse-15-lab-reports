@@ -80,7 +80,7 @@ Screenshots of described above steps:
 
 ## Optimizing Remote Running
 
-Finally, when using terminal and accessing **ieng6** we can insert a command in quotations and the whole line will run at ones:
+Finally, when using terminal and accessing **ieng6** we can insert a command in quotations and the whole line will run at once:
 
 ![Image](ls-in-qot.png)
 
@@ -92,4 +92,4 @@ Both of these techniques can be seen here:
 
 ![Image](megaThing.png)
 
-I added "a line" in the file on local network and could add this change to **ieng6**.
+I added "a line" string in the file on local network and could add this change to **ieng6**. It took me 150 keystrokes in order to run this line, including all letters and function keys("shift", "control, "enter"): first open a terminal using the hot key shortcut described above, then type in the line and press enter. 
