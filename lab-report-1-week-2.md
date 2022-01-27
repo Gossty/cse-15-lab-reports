@@ -92,4 +92,4 @@ Both of these techniques can be seen here:
 
 ![Image](megaThing.png)
 
-I added "a line" string in the file on local network and could add this change to **ieng6**. It took me 150 keystrokes in order to run this line, including all letters and function keys("shift", "control, "enter"): first open a terminal using the hot key shortcut described above, then type in the line and press enter. 
+I added "a line" string in the file on local network and could add this change to **ieng6**. After editing and saving, by using the line presented in the screenshot above I was able to reach a result of 2 keystrokes in order to copy the given file to the remote server and running it. The two keystrokes are "upper key" and "enter".
