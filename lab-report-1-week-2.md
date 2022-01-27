@@ -92,4 +92,4 @@ Both of these techniques can be seen here:
 
 ![Image](megaThing.png)
 
-I added "a line" string in the file on local network and could add this change to **ieng6**. After editing and saving, by using the line presented in the screenshot above I was able to reach a result of 2 keystrokes in order to copy the given file to the remote server and running it. The two keystrokes are "upper key" and "enter".
+I added "a line" string in the file on local network and could add this change to **ieng6**. After editing and saving, by using the line presented in the screenshot above I was able to reach a result of 2 keystrokes in order to copy the given file to the remote server and running it. The two keystrokes are "upper key" and "enter". It is important to notice that if you are already in the required directory, you do not need to `cd` to it, but rather use the next line: `scp WhereAmI.java cs15lwi22atn@ieng6.ucsd.edu:~/; ssh cs15lwi22atn@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"WhereAmI.java`. 
