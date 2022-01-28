@@ -1,6 +1,6 @@
 # Lab Report №2
 
-This is a report on the second lab. 
+This is a report for the second lab. 
 
 ## First Code Change
 
