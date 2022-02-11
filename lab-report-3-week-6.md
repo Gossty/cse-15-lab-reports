@@ -18,5 +18,8 @@ Now we can compile and run the tests for my repository from **ieng6**:
 
 ![image](report3_3.png)
 
-Now everything in one line:
+Now we can get all the necessary commands in one line:
 
+![image](report3_4.png)
+
+Notice that here I used `scp -r *.java *.md` at the beginning of the line. I did that in order to not copy all `.git` files inside the `markdown-parse` folder on **ieng6**. `*` indicates that all files with `java` and `md` extension should be copied. In the screenshot we can also see that all screenshots did run sucessfully. 
