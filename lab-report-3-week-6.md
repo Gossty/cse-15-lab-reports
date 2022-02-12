@@ -18,7 +18,7 @@ Now we can compile and run the tests for my repository from **ieng6**:
 
 ![image](report3_3.png)
 
-Now we can get all the necessary commands in one line:
+Now we can get all the necessary commands to copy the whole directory, compile files and run tests on **ieng6** in one line:
 
 ![image](report3_4.png)
 
