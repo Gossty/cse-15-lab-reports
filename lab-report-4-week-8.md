@@ -68,6 +68,6 @@ Other person's implementation resulted in the next output – the test also resu
 
 ![image](report4_11.png)
 
-If we take into consideration the previous addition suggested (the one in snippet 2), and add a counter of lines, then we could make this test work, too: markdown will make a link if the next open bracket is either on the same line or on the next one. If, for example,
+A change to the code could be made for these tests to run, however it does not seem to be small. If we take into consideration the previous addition suggested (the one in snippet 2), and add a counter of lines, then we could try this test work: markdown will make a link if the next open bracket is either on the same line or on the next one. We could count the number of lines between the open bracket and the closed one. If it is greater than one, then the program should just skip this link and not add it to the final arraylist. I was trying to implement this logic in the markdownparse, but I am not sure where and how exactly I should add the "skipping" of the link.
 
 
