@@ -2,9 +2,9 @@
 
 This is a report for the lab on week 7. 
 
-This is [my repository](https://github.com/Gossty/markdown-parse)
+This is link to [my repository](https://github.com/Gossty/markdown-parse)
 
-This is [their repository](https://github.com/johnsonli010801/markdown-parse)
+This is link to [their repository](https://github.com/johnsonli010801/markdown-parse)
 
 ## Snippet 1
 
