@@ -2,6 +2,10 @@
 
 This is a report for the lab on week 7. 
 
+This is [my repository](https://github.com/Gossty/markdown-parse)
+
+This is [their repository](https://github.com/johnsonli010801/markdown-parse)
+
 ## Snippet 1
 
 Turning first snippet into a test in ```MarkdownParseTest.java```:
